@@ -61,7 +61,7 @@ def init_oakd():
     xoutRgb  = pipeline.create(dai.node.XLinkOut)
     xoutRgb.setStreamName("rgb")
     camRgb.setBoardSocket(dai.CameraBoardSocket.CAM_A)
-    camRgb.setResolution(dai.ColorCameraProperties.SensorResolution.THE_720_P)
+    camRgb.setResolution(dai.ColorCameraProperties.SensorResolution.THE_1080_P)
     camRgb.setInterleaved(False)
     camRgb.setFps(15)
     camRgb.setPreviewSize(640, 360)
