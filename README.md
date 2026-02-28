@@ -1,6 +1,6 @@
 # OCRA — Human-to-Robot Arm Motion Retargeting
 
-Real-time teleoperation of a **ReactorX 200** robot arm by retargeting human arm motion captured via an **OAK-D depth camera** and **MediaPipe** pose estimation. Implements the OCRA algorithm (Optimization-based Customizable Retargeting Algorithm) from Mohan & Kuchenbecker, ICRA 2023.
+Real-time teleoperation of a **ReactorX 200** robot arm by retargeting human arm motion captured via an **OAK-D depth camera** and **MediaPipe** pose estimation. Implements a slighly modified version of the OCRA algorithm (Optimization-based Customizable Retargeting Algorithm) from Mohan & Kuchenbecker, ICRA 2023.
 
 ---
 
